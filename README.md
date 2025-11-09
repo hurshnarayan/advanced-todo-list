@@ -1,17 +1,39 @@
-# Before Getting Started
+# 📝 React Todo List — "Because I’ll totally remember it later... right?"
 
-The starting code for this project is the exact same code as the ending of the simple todo list project we completed earlier in the course. The only change is I added an `app.html` file which shows what the final HTML/CSS for this project should look like. Also, the CSS file you used in the first project already contains all the styles needed for this updated version of the project so you do not need to add any additional styles.
+Welcome to my **React-powered Todo List**, built entirely with `useReducer`, questionable motivation, and too much caffeine ☕.
 
-The goal of this project is to expand upon our simple todo list by adding more complex user interactions which will lead to more complex state management.
+It’s clean. It’s fast. It’s *way* too advanced for a todo app. 😌  
 
-# Instructions
+---
 
-1. The state for our todos should be stored in local storage so when we come back to the page at a later time all our data is still there
-2. Convert all the state in the application to use `useReducer` and `Context` to pass the state between components
-3. Add the ability to delete existing todos
-4. Add a form that lets you filter todos by their name and hide completed todos
+## ⚡ Features
 
-## Bonus
+- ➕ **Add Todos** – Type, press enter, boom, task created  
+- ✅ **Toggle Todos** – Cross off that thing you definitely did (probably)  
+- ✏️ **Edit Todos** – Because plans change, and spelling mistakes happen  
+- ❌ **Delete Todos** – Make them disappear like your workout goals  
+- 🔍 **Filter by Name** – Find tasks faster than your attention span  
+- 🙈 **Hide Completed** – Out of sight, out of guilt  
+- ⌨️ **Keyboard Shortcuts** – Press `Enter` to add like a pro  
+- 💪 Built entirely with **useReducer** — one hook to manage them all  
 
-1. Add the ability to edit existing todos
-   - This is in the bonus section not because the editing portion is tricky, but because handling the proper UI state of swapping between text and an input is something we haven't really done before
+---
+
+## 🧠 What I Learned
+
+- How to juggle multiple states in one reducer (and survive)  
+- Why derived state should *not* be stored (trust the render, bro)  
+- The magic of `dispatch()` — feels like casting React spells  
+- That editing a todo should feel smoother than your excuses  
+
+---
+
+## 🚀 How to Run It
+
+Clone it, install dependencies, and start your path to “organization” (allegedly):
+
+```bash
+git clone https://github.com/yourusername/react-todolist.git
+cd react-todolist
+npm install
+npm run dev
